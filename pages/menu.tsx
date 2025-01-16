@@ -32,12 +32,7 @@ const Menu = () => {
       <p>ماں کی محبت غیر مشروط، بے حد، اور ہمیشہ کے لیے پرورش پانے والی ہوتی ہے۔</p>
       <a href="./mb" className="btn">Learn More</a>
     </div>
-    <div className="service-card">
-      <h2>اسلام</h2>
-      <p>اسلام امن، اللہ کے سامنے سر تسلیم خم کرنے اور سب کے لیے ہمدردی کا عقیدہ ہے۔
-      </p>
-      <a href="./islam" className="btn">Learn More</a>
-    </div>
+   
     <div className="service-card">
       <h2>حوصلہ افزائی
       </h2>

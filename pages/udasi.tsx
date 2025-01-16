@@ -1,681 +1,194 @@
-import React from 'react'
+import React from 'react';
+import Script from 'next/script';
 
 const Udasi = () => {
   return (
     <div>
-       <header>
+      <header>
         <div className="logo">
-            <h1>اداسی</h1>
+          <h1>اداسی</h1>
         </div>
-    </header>
-    
-    <section className="service-section">
-        <div className="service-card">
-            <div className="service-icon">
-                <i className="fas fa-cogs"></i>
-            </div>
-            <div className="service-content">
-                <h3>اداسی
-                </h3>
-                <p>دکھوں کا سایا دل پر چھایا ہے،
-خوابوں کی روشنی مٹ گئی ہے۔
-یادیں اب تکلیف بن گئیں ہیں،
-یہ دل ہے یا کوئی گہری کہانی؟
+      </header>
 
-</p>
-            </div>
-        </div>
-        
+      <section className="service-section">
         <div className="service-card">
-            <div className="service-icon">
-                <i className="fas fa-mobile-alt"></i>
-            </div>
-            <div className="service-content">
-                <h3>اداسی
-                </h3>
-                <p>خالی ہو گیا ہے دل کا گوشہ،
-خواب بھی اب ماضی کے عکس ہیں۔
-چاندنی راتوں میں بھی اندھیرا ہے،
-دکھوں کا موسم ہر پل ہے۔
+          <div className="service-icon">
+            <i className="fas fa-cogs"></i>
+          </div>
+          <div className="service-content">
+            <h3>اداسی</h3>
+            <p>&quot;دکھوں کا سایا دل پر چھایا ہے،<br />
+            خوابوں کی روشنی مٹ گئی ہے۔<br />
+            یادیں اب تکلیف بن گئیں ہیں،<br />
+            یہ دل ہے یا کوئی گہری کہانی؟&quot;</p>
+          </div>
+        </div>
 
-.</p>
-            </div>
-        </div>
-        
         <div className="service-card">
-            <div className="service-icon">
-                <i className="fas fa-cloud"></i>
-            </div>
-            <div className="service-content">
-                <h3>اداسی
-                </h3>
-                <p>دوریاں بڑھ گئیں ہیں، دل دور ہوگیا،
-دلی رشتہ اب خواب ہوگیا۔
-اب جو چھوٹا تھا، وہ بھی سنسان ہے،
-دکھ میں غم کی گلیاں سناں ہیں۔.</p>
-            </div>
+          <div className="service-icon">
+            <i className="fas fa-mobile-alt"></i>
+          </div>
+          <div className="service-content">
+            <h3>اداسی</h3>
+            <p>&quot;خالی ہو گیا ہے دل کا گوشہ،<br />
+            خواب بھی اب ماضی کے عکس ہیں۔<br />
+            چاندنی راتوں میں بھی اندھیرا ہے،<br />
+            دکھوں کا موسم ہر پل ہے۔&quot;</p>
+          </div>
         </div>
-        
-        <div className="service-card">
-            <div className="service-icon">
-                <i className="fas fa-users"></i>
-            </div>
-            <div className="service-content">
-                <h3>اداسی
-                </h3>
-                <p>آنکھوں میں نمی اور دل میں غم ہے،
-زندگی کی راہ پر فقط ستم ہے۔
-خوشی کی آواز اب دور ہوگئی،
-دکھوں کی گلیوں میں خواب چھوگئے۔
 
-.</p>
-            </div>
+        <div className="service-card">
+          <div className="service-icon">
+            <i className="fas fa-cloud"></i>
+          </div>
+          <div className="service-content">
+            <h3>اداسی</h3>
+            <p>&quot;دوریاں بڑھ گئیں ہیں، دل دور ہوگیا،<br />
+            دلی رشتہ اب خواب ہوگیا۔<br />
+            اب جو چھوٹا تھا، وہ بھی سنسان ہے،<br />
+            دکھ میں غم کی گلیاں سناں ہیں۔&quot;</p>
+          </div>
         </div>
-        
+
+        <div className="service-card">
+          <div className="service-icon">
+            <i className="fas fa-users"></i>
+          </div>
+          <div className="service-content">
+            <h3>اداسی</h3>
+            <p>&quot;آنکھوں میں نمی اور دل میں غم ہے،<br />
+            زندگی کی راہ پر فقط ستم ہے۔<br />
+            خوشی کی آواز اب دور ہوگئی،<br />
+            دکھوں کی گلیوں میں خواب چھوگئے۔&quot;</p>
+          </div>
+        </div>
+
         <div className="adsense-space">
-            <p>AdSense Space</p>
+          <p>AdSense Space</p>
         </div>
-    </section>
- 
+      </section>
 
-    <section className="service-section">
-       
+      <section className="service-section">
         <div className="service-card">
-            <div className="service-icon">
-                <i className="fas fa-cloud"></i>
-            </div>
-            <div className="service-content">
-                <h3>اداسی
-                </h3>
-                <p>ہر خوشی کی گلی میں دکھ کا موسم ہے،
-غم کا دُکھ دل میں گہرا ہے۔
-اب کوئی شمع نہیں روشن،
-دل میں سوگ کی گلی سیاہ ہے۔
+          <div className="service-icon">
+            <i className="fas fa-cloud"></i>
+          </div>
+          <div className="service-content">
+            <h3>اداسی</h3>
+            <p>&quot;ہر خوشی کی گلی میں دکھ کا موسم ہے،<br />
+            غم کا دُکھ دل میں گہرا ہے۔<br />
+            اب کوئی شمع نہیں روشن،<br />
+            دل میں سوگ کی گلی سیاہ ہے.&quot;</p>
+          </div>
+        </div>
 
-.</p>
-            </div>
-        </div>
-        
         <div className="service-card">
-            <div className="service-icon">
-                <i className="fas fa-users"></i>
-            </div>
-            <div className="service-content">
-                <h3>اداسی
-                </h3>
-                <p>دیکھو، دل کی حالت اب خراب ہے،
-دکھ کا سمندر بہت گہرا ہے۔
-خوشی کا کچھ پتہ نہیں،
-غم کا بادل ہر طرف ہے۔
+          <div className="service-icon">
+            <i className="fas fa-users"></i>
+          </div>
+          <div className="service-content">
+            <h3>اداسی</h3>
+            <p>&quot;دیکھو، دل کی حالت اب خراب ہے،<br />
+            دکھ کا سمندر بہت گہرا ہے۔<br />
+            خوشی کا کچھ پتہ نہیں،<br />
+            غم کا بادل ہر طرف ہے.&quot;</p>
+          </div>
+        </div>
+      </section>
 
-</p>
-            </div>
-        </div>
-        
-      
-    </section>
-    <section className="service-section">
+      <section className="service-section">
         <div className="service-card">
-            <div className="service-icon">
-                <i className="fas fa-cogs"></i>
-            </div>
-            <div className="service-content">
-                <h3>اداسی
-                </h3>
-                <p>یادوں میں جینا، یہ کچھ نہیں،
-دکھوں کا سامنا کرنا یہی ہے۔
-یادیں اب سچ بن گئیں ہیں،
-دکھوں کی پرچھائیاں پھیلی ہیں.</p>
-            </div>
+          <div className="service-icon">
+            <i className="fas fa-cogs"></i>
+          </div>
+          <div className="service-content">
+            <h3>اداسی</h3>
+            <p>&quot;یادوں میں جینا، یہ کچھ نہیں،<br />
+            دکھوں کا سامنا کرنا یہی ہے۔<br />
+            یادیں اب سچ بن گئیں ہیں،<br />
+            دکھوں کی پرچھائیاں پھیلی ہیں.&quot;</p>
+          </div>
         </div>
-        
-        <div className="service-card">
-            <div className="service-icon">
-                <i className="fas fa-mobile-alt"></i>
-            </div>
-            <div className="service-content">
-                <h3>اداسی
-                </h3>
-                <p>پچھلے لمحوں کی کچھ یادیں،
-جو دل میں اب گہری ہیں۔
-خالی ہیں گزرے وقت کی راہیں،
-دکھوں کا سفر اب طے ہوتا ہے.</p>
-            </div>
-        </div>
-        
-        
-       
-    </section>
-    <section className="service-section">
-        <div className="service-card">
-            <div className="service-icon">
-                <i className="fas fa-cogs"></i>
-            </div>
-            <div className="service-content">
-                <h3>اداسی
-                </h3>
-                <p>یادوں کی دھند میں راستہ کھو گیا،
-دکھوں کی گلی میں کچھ سچّا نہیں۔
-دل کی دھڑکن اب سست ہوگئی،
-دکھ میں سب کچھ سٹپٹایا ہوا ہے۔
 
-.</p>
-            </div>
-        </div>
-        
         <div className="service-card">
-            <div className="service-icon">
-                <i className="fas fa-mobile-alt"></i>
-            </div>
-            <div className="service-content">
-                <h3>اداسی
-                </h3>
-                <p>دکھ کے سمندر میں ڈوبتا ہوں،
-خود کو تنہا پاتا ہوں۔
-یہ دل ہے یا کوئی سنگ دل،
-غم کی لہریں مجھے ڈبوتی ہیں۔
+          <div className="service-icon">
+            <i className="fas fa-mobile-alt"></i>
+          </div>
+          <div className="service-content">
+            <h3>اداسی</h3>
+            <p>&quot;پچھلے لمحوں کی کچھ یادیں،<br />
+            جو دل میں اب گہری ہیں۔<br />
+            خالی ہیں گزرے وقت کی راہیں،<br />
+            دکھوں کا سفر اب طے ہوتا ہے.&quot;</p>
+          </div>
+        </div>
+      </section>
 
-.</p>
-            </div>
-        </div>
-        
+      <section className="service-section">
         <div className="service-card">
-            <div className="service-icon">
-                <i className="fas fa-cloud"></i>
-            </div>
-            <div className="service-content">
-                <h3>اداسی
-                </h3>
-                <p>یادیں دل میں اک طوفان بن گئیں،
-دکھ کا سفر بھی طویل ہوگیا۔
-خوابوں میں رنگ اب ماند پڑ گئے،
-غم کا گزرنا اور بھی جھیل گیا۔
+          <div className="service-icon">
+            <i className="fas fa-cogs"></i>
+          </div>
+          <div className="service-content">
+            <h3>اداسی</h3>
+            <p>&quot;یادوں کی دھند میں راستہ کھو گیا،<br />
+            دکھوں کی گلی میں کچھ سچّا نہیں۔<br />
+            دل کی دھڑکن اب سست ہوگئی،<br />
+            دکھ میں سب کچھ سٹپٹایا ہوا ہے.&quot;</p>
+          </div>
+        </div>
 
-.</p>
-            </div>
-        </div>
-        
         <div className="service-card">
-            <div className="service-icon">
-                <i className="fas fa-users"></i>
-            </div>
-            <div className="service-content">
-                <h3>اداسی
-                </h3>
-                <p>دیکھو تو سچ کیا ہے، دکھ کا احساس ہے،
-یادیں بھی اب تو زہر کا پیالہ ہیں۔
-خالی ہے دل کا ہر گوشہ،
-دکھوں کا بادل ہر لمحہ ہے۔
+          <div className="service-icon">
+            <i className="fas fa-mobile-alt"></i>
+          </div>
+          <div className="service-content">
+            <h3>اداسی</h3>
+            <p>&quot;دکھ کے سمندر میں ڈوبتا ہوں،<br />
+            خود کو تنہا پاتا ہوں۔<br />
+            یہ دل ہے یا کوئی سنگ دل،<br />
+            غم کی لہریں مجھے ڈبوتی ہیں.&quot;</p>
+          </div>
+        </div>
 
-.</p>
-            </div>
-        </div>
-        
-      
-    </section>
-    {/* <section className="service-section">
         <div className="service-card">
-            <div className="service-icon">
-                <i className="fas fa-cogs"></i>
-            </div>
-            <div className="service-content">
-                <h3>Tech Services</h3>
-                <p>We offer cutting-edge technology solutions for your business needs.</p>
-            </div>
+          <div className="service-icon">
+            <i className="fas fa-cloud"></i>
+          </div>
+          <div className="service-content">
+            <h3>اداسی</h3>
+            <p>&quot;یادیں دل میں اک طوفان بن گئیں،<br />
+            دکھ کا سفر بھی طویل ہوگیا۔<br />
+            خوابوں میں رنگ اب ماند پڑ گئے،<br />
+            غم کا گزرنا اور بھی جھیل گیا.&quot;</p>
+          </div>
         </div>
-        
-        <div className="service-card">
-            <div className="service-icon">
-                <i className="fas fa-mobile-alt"></i>
-            </div>
-            <div className="service-content">
-                <h3>App Development</h3>
-                <p>We specialize in building user-friendly mobile applications.</p>
-            </div>
-        </div>
-        
-        <div className="service-card">
-            <div className="service-icon">
-                <i className="fas fa-cloud"></i>
-            </div>
-            <div className="service-content">
-                <h3>Cloud Solutions</h3>
-                <p>Our cloud services enhance efficiency and scalability for businesses.</p>
-            </div>
-        </div>
-        
-        <div className="service-card">
-            <div className="service-icon">
-                <i className="fas fa-users"></i>
-            </div>
-            <div className="service-content">
-                <h3>Team Building</h3>
-                <p>We help organizations foster collaboration and teamwork.</p>
-            </div>
-        </div>
-        
-       
-    </section>
-    <section className="service-section">
-        <div className="service-card">
-            <div className="service-icon">
-                <i className="fas fa-cogs"></i>
-            </div>
-            <div className="service-content">
-                <h3>Tech Services</h3>
-                <p>We offer cutting-edge technology solutions for your business needs.</p>
-            </div>
-        </div>
-        
-        <div className="service-card">
-            <div className="service-icon">
-                <i className="fas fa-mobile-alt"></i>
-            </div>
-            <div className="service-content">
-                <h3>App Development</h3>
-                <p>We specialize in building user-friendly mobile applications.</p>
-            </div>
-        </div>
-        
-        <div className="service-card">
-            <div className="service-icon">
-                <i className="fas fa-cloud"></i>
-            </div>
-            <div className="service-content">
-                <h3>Cloud Solutions</h3>
-                <p>Our cloud services enhance efficiency and scalability for businesses.</p>
-            </div>
-        </div>
-        
-        <div className="service-card">
-            <div className="service-icon">
-                <i className="fas fa-users"></i>
-            </div>
-            <div className="service-content">
-                <h3>Team Building</h3>
-                <p>We help organizations foster collaboration and teamwork.</p>
-            </div>
-        </div>
-        
-       
-    </section> */}
-    {/* <section className="service-section">
-        <div className="service-card">
-            <div className="service-icon">
-                <i className="fas fa-cogs"></i>
-            </div>
-            <div className="service-content">
-                <h3>Tech Services</h3>
-                <p>We offer cutting-edge technology solutions for your business needs.</p>
-            </div>
-        </div>
-        
-        <div className="service-card">
-            <div className="service-icon">
-                <i className="fas fa-mobile-alt"></i>
-            </div>
-            <div className="service-content">
-                <h3>App Development</h3>
-                <p>We specialize in building user-friendly mobile applications.</p>
-            </div>
-        </div>
-        
-        <div className="service-card">
-            <div className="service-icon">
-                <i className="fas fa-cloud"></i>
-            </div>
-            <div className="service-content">
-                <h3>Cloud Solutions</h3>
-                <p>Our cloud services enhance efficiency and scalability for businesses.</p>
-            </div>
-        </div>
-        
-        <div className="service-card">
-            <div className="service-icon">
-                <i className="fas fa-users"></i>
-            </div>
-            <div className="service-content">
-                <h3>Team Building</h3>
-                <p>We help organizations foster collaboration and teamwork.</p>
-            </div>
-        </div>
-        
-     
-    </section> */}
-    {/* <section className="service-section">
-        <div className="service-card">
-            <div className="service-icon">
-                <i className="fas fa-cogs"></i>
-            </div>
-            <div className="service-content">
-                <h3>Tech Services</h3>
-                <p>We offer cutting-edge technology solutions for your business needs.</p>
-            </div>
-        </div>
-        
-        <div className="service-card">
-            <div className="service-icon">
-                <i className="fas fa-mobile-alt"></i>
-            </div>
-            <div className="service-content">
-                <h3>App Development</h3>
-                <p>We specialize in building user-friendly mobile applications.</p>
-            </div>
-        </div>
-        
-        <div className="service-card">
-            <div className="service-icon">
-                <i className="fas fa-cloud"></i>
-            </div>
-            <div className="service-content">
-                <h3>Cloud Solutions</h3>
-                <p>Our cloud services enhance efficiency and scalability for businesses.</p>
-            </div>
-        </div>
-        
-        <div className="service-card">
-            <div className="service-icon">
-                <i className="fas fa-users"></i>
-            </div>
-            <div className="service-content">
-                <h3>Team Building</h3>
-                <p>We help organizations foster collaboration and teamwork.</p>
-            </div>
-        </div>
-       
-    </section>
-    <section className="service-section">
-        <div className="service-card">
-            <div className="service-icon">
-                <i className="fas fa-cogs"></i>
-            </div>
-            <div className="service-content">
-                <h3>Tech Services</h3>
-                <p>We offer cutting-edge technology solutions for your business needs.</p>
-            </div>
-        </div>
-        
-        <div className="service-card">
-            <div className="service-icon">
-                <i className="fas fa-mobile-alt"></i>
-            </div>
-            <div className="service-content">
-                <h3>App Development</h3>
-                <p>We specialize in building user-friendly mobile applications.</p>
-            </div>
-        </div>
-        
-        <div className="service-card">
-            <div className="service-icon">
-                <i className="fas fa-cloud"></i>
-            </div>
-            <div className="service-content">
-                <h3>Cloud Solutions</h3>
-                <p>Our cloud services enhance efficiency and scalability for businesses.</p>
-            </div>
-        </div>
-        
-        <div className="service-card">
-            <div className="service-icon">
-                <i className="fas fa-users"></i>
-            </div>
-            <div className="service-content">
-                <h3>Team Building</h3>
-                <p>We help organizations foster collaboration and teamwork.</p>
-            </div>
-        </div>
-        
-       
-    </section>
-    <section className="service-section">
-        <div className="service-card">
-            <div className="service-icon">
-                <i className="fas fa-cogs"></i>
-            </div>
-            <div className="service-content">
-                <h3>Tech Services</h3>
-                <p>We offer cutting-edge technology solutions for your business needs.</p>
-            </div>
-        </div>
-        
-        <div className="service-card">
-            <div className="service-icon">
-                <i className="fas fa-mobile-alt"></i>
-            </div>
-            <div className="service-content">
-                <h3>App Development</h3>
-                <p>We specialize in building user-friendly mobile applications.</p>
-            </div>
-        </div>
-        
-        <div className="service-card">
-            <div className="service-icon">
-                <i className="fas fa-cloud"></i>
-            </div>
-            <div className="service-content">
-                <h3>Cloud Solutions</h3>
-                <p>Our cloud services enhance efficiency and scalability for businesses.</p>
-            </div>
-        </div>
-        
-        <div className="service-card">
-            <div className="service-icon">
-                <i className="fas fa-users"></i>
-            </div>
-            <div className="service-content">
-                <h3>Team Building</h3>
-                <p>We help organizations foster collaboration and teamwork.</p>
-            </div>
-        </div>
-        
-      
-    </section>
-    <section className="service-section">
-        <div className="service-card">
-            <div className="service-icon">
-                <i className="fas fa-cogs"></i>
-            </div>
-            <div className="service-content">
-                <h3>Tech Services</h3>
-                <p>We offer cutting-edge technology solutions for your business needs.</p>
-            </div>
-        </div>
-        
-        <div className="service-card">
-            <div className="service-icon">
-                <i className="fas fa-mobile-alt"></i>
-            </div>
-            <div className="service-content">
-                <h3>App Development</h3>
-                <p>We specialize in building user-friendly mobile applications.</p>
-            </div>
-        </div>
-        
-        <div className="service-card">
-            <div className="service-icon">
-                <i className="fas fa-cloud"></i>
-            </div>
-            <div className="service-content">
-                <h3>Cloud Solutions</h3>
-                <p>Our cloud services enhance efficiency and scalability for businesses.</p>
-            </div>
-        </div>
-        
-        <div className="service-card">
-            <div className="service-icon">
-                <i className="fas fa-users"></i>
-            </div>
-            <div className="service-content">
-                <h3>Team Building</h3>
-                <p>We help organizations foster collaboration and teamwork.</p>
-            </div>
-        </div>
-        
-     =
-    </section> */}
-     <div className="adsense-space">
-            <p>AdSense Space</p>
-        </div>
-    <section className="service-section">
-        {/* <div className="service-card">
-            <div className="service-icon">
-                <i className="fas fa-cogs"></i>
-            </div>
-            <div className="service-content">
-                <h3>Tech Services</h3>
-                <p>We offer cutting-edge technology solutions for your business needs.</p>
-            </div>
-        </div> */}
-        
-        {/* <div className="service-card">
-            <div className="service-icon">
-                <i className="fas fa-mobile-alt"></i>
-            </div>
-            <div className="service-content">
-                <h3>App Development</h3>
-                <p>We specialize in building user-friendly mobile applications.</p>
-            </div>
-        </div> */}
-        
-        {/* <div className="service-card">
-            <div className="service-icon">
-                <i className="fas fa-cloud"></i>
-            </div>
-            <div className="service-content">
-                <h3>Cloud Solutions</h3>
-                <p>Our cloud services enhance efficiency and scalability for businesses.</p>
-            </div>
-        </div> */}
-{/*         
-        <div className="service-card">
-            <div className="service-icon">
-                <i className="fas fa-users"></i>
-            </div>
-            <div className="service-content">
-                <h3>Team Building</h3>
-                <p>We help organizations foster collaboration and teamwork.</p>
-            </div>
-        </div> */}
-        
-    
-    </section>
-    <section className="service-section">
-        <div className="service-card">
-            <div className="service-icon">
-                <i className="fas fa-cogs"></i>
-            </div>
-            <div className="service-content">
-                <h3>اداسی
-                </h3>
-                <p>We offer cutting-edge technology solutions for your business needs.</p>
-            </div>
-        </div>
-        
-        {/* <div className="service-card">
-            <div className="service-icon">
-                <i className="fas fa-mobile-alt"></i>
-            </div>
-            <div className="service-content">
-                <h3>App Development</h3>
-                <p>We specialize in building user-friendly mobile applications.</p>
-            </div>
-        </div> */}
-        
-        {/* <div className="service-card">
-            <div className="service-icon">
-                <i className="fas fa-cloud"></i>
-            </div>
-            <div className="service-content">
-                <h3>Cloud Solutions</h3>
-                <p>Our cloud services enhance efficiency and scalability for businesses.</p>
-            </div>
-        </div> */}
-        
-        {/* <div className="service-card">
-            <div className="service-icon">
-                <i className="fas fa-users"></i>
-            </div>
-            <div className="service-content">
-                <h3>Team Building</h3>
-                <p>We help organizations foster collaboration and teamwork.</p>
-            </div>
-        </div> */}
-        
-        <div className="adsense-space">
-            <p>AdSense Space</p>
-        </div>
-    </section>
-    <section className="service-section">
-        <div className="service-card">
-            <div className="service-icon">
-                <i className="fas fa-cogs"></i>
-            </div>
-            <div className="service-content">
-                <h3>اداسی
-                </h3>
-                <p>دیکھو، زندگی میں دکھوں کی بہار ہے،
-غم کا دریا بھی بے شمار ہے۔
-اب جو تھا وہ محبت کا رنگ،
-اب وہ بھی خالی ہو چکا ہے۔
 
-.</p>
-            </div>
-        </div>
-        
         <div className="service-card">
-            <div className="service-icon">
-                <i className="fas fa-mobile-alt"></i>
-            </div>
-            <div className="service-content">
-                <h3>اداسی
-                </h3>
-                <p>
-دکھ کے بادل جب چھا گئے،
-خواب بھی اب کہیں چھپ گئے۔
-رہ گئے فقط آنکھوں میں آنسو،
-دل میں غم کی ہر بیتی ہے۔.</p>
-            </div>
+          <div className="service-icon">
+            <i className="fas fa-users"></i>
+          </div>
+          <div className="service-content">
+            <h3>اداسی</h3>
+            <p>&quot;دیکھو تو سچ کیا ہے، دکھ کا احساس ہے،<br />
+            یادیں بھی اب تو زہر کا پیالہ ہیں۔<br />
+            خالی ہے دل کا ہر گوشہ،<br />
+            دکھوں کا بادل ہر لمحہ ہے.&quot;</p>
+          </div>
         </div>
-        
-        <div className="service-card">
-            <div className="service-icon">
-                <i className="fas fa-cloud"></i>
-            </div>
-            <div className="service-content">
-                <h3>اداسی
-                </h3>
-                <p>گزرے لمحوں کی یادیں ستاتی ہیں،
-دل کے کمرے میں غم بساتا ہے۔
-خالی جگہوں میں تمہاری کمی،
-میرے دل کو تڑپاتی ہے۔.</p>
-            </div>
-        </div>
-        
-        <div className="service-card">
-            <div className="service-icon">
-                <i className="fas fa-users"></i>
-            </div>
-            <div className="service-content">
-                <h3>اداسی
-                </h3>
-                <p>یادیں تڑپتی ہیں، دل میں سسکیاں ہیں،
-ہر پل میں غم کی گونج ہے۔
-خالی دل اور اکیلی راتیں،
-دکھ کے آہنگ میں گھٹتی جاتی ہیں۔
+      </section>
 
-.</p>
-            </div>
-        </div>
-        
-       
-    </section>
-    <footer>
+      <footer>
         <p>&copy; 2025 Our Company. All Rights Reserved.</p>
-    </footer>
-    
-    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+      </footer>
+
+      {/* Load FontAwesome script asynchronously */}
+      <Script 
+        src="https://kit.fontawesome.com/a076d05399.js" 
+        strategy="afterInteractive" 
+      />
     </div>
-  )
-}
+  );
+};
 
 export default Udasi;

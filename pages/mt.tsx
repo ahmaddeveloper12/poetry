@@ -1,688 +1,94 @@
-import React from 'react'
+import React from 'react';
+import Script from 'next/script';
 
 const Mt = () => {
   return (
     <div>
-       <header>
+      <header>
         <div className="logo">
-            <h1>حوصلہ افزائی</h1>
+          <h1>حوصلہ افزائی</h1>
         </div>
-    </header>
+      </header>
     
-    <section className="service-section">
+      <section className="service-section">
         <div className="service-card">
-            <div className="service-icon">
-                <i className="fas fa-cogs"></i>
-            </div>
-            <div className="service-content">
-                <h3>حوصلہ افزائی
-                </h3>
-                <p>"زندگی میں کامیابی حاصل کرنے کے لئے محنت ضروری ہے، خواب دیکھنا کافی نہیں۔"
+          <div className="service-icon">
+            <i className="fas fa-cogs"></i>
+          </div>
+          <div className="service-content">
+            <h3>حوصلہ افزائی</h3>
+            <p>&quot;زندگی میں کامیابی حاصل کرنے کے لئے محنت ضروری ہے، خواب دیکھنا کافی نہیں۔&quot;</p>
+          </div>
+        </div>
+        
+        <div className="service-card">
+          <div className="service-icon">
+            <i className="fas fa-mobile-alt"></i>
+          </div>
+          <div className="service-content">
+            <h3>حوصلہ افزائی</h3>
+            <p>&quot;جب تک تمہیں ناکامی کا خوف ہے، کامیابی تمہارے قریب نہیں آ سکتی۔&quot;</p>
+          </div>
+        </div>
 
-</p>
-            </div>
-        </div>
-        
-        <div className="service-card">
-            <div className="service-icon">
-                <i className="fas fa-mobile-alt"></i>
-            </div>
-            <div className="service-content">
-                <h3>حوصلہ افزائی
-                </h3>
-                <p>جب تک تمہیں ناکامی کا خوف ہے، کامیابی تمہارے قریب نہیں آ سکتی۔"</p>
-            </div>
-        </div>
-        
-        {/* <div className="service-card">
-            <div className="service-icon">
-                <i className="fas fa-cloud"></i>
-            </div>
-            <div className="service-content">
-                <h3>Cloud Solutions</h3>
-                <p>Our cloud services enhance efficiency and scalability for businesses.</p>
-            </div>
-        </div>
-        
-        <div className="service-card">
-            <div className="service-icon">
-                <i className="fas fa-users"></i>
-            </div>
-            <div className="service-content">
-                <h3>Team Building</h3>
-                <p>We help organizations foster collaboration and teamwork.</p>
-            </div>
-        </div>
-         */}
         <div className="adsense-space">
-            <p>AdSense Space</p>
+          <p>AdSense Space</p>
         </div>
-    </section>
- 
+      </section>
 
-    <section className="service-section">
+      <section className="service-section">
         <div className="service-card">
-            <div className="service-icon">
-                <i className="fas fa-cogs"></i>
-            </div>
-            <div className="service-content">
-                <h3>حوصلہ افزائی
-                </h3>
-                <p>"جو شخص خود پر یقین رکھتا ہے، وہ کبھی بھی شکست نہیں کھاتا۔".</p>
-            </div>
+          <div className="service-icon">
+            <i className="fas fa-cogs"></i>
+          </div>
+          <div className="service-content">
+            <h3>حوصلہ افزائی</h3>
+            <p>&quot;جو شخص خود پر یقین رکھتا ہے، وہ کبھی بھی شکست نہیں کھاتا۔&quot;</p>
+          </div>
         </div>
         
         <div className="service-card">
-            <div className="service-icon">
-                <i className="fas fa-mobile-alt"></i>
-            </div>
-            <div className="service-content">
-                <h3>حوصلہ افزائی
-                </h3>
-                <p>"مشکل وقت میں ہمت نہ ہارنا، کیونکہ سب سے بڑا سورج ہمیشہ اندھیری رات کے بعد چمکتا ہے۔"
+          <div className="service-icon">
+            <i className="fas fa-mobile-alt"></i>
+          </div>
+          <div className="service-content">
+            <h3>حوصلہ افزائی</h3>
+            <p>&quot;مشکل وقت میں ہمت نہ ہارنا، کیونکہ سب سے بڑا سورج ہمیشہ اندھیری رات کے بعد چمکتا ہے۔&quot;</p>
+          </div>
+        </div>
+        
+        <div className="service-card">
+          <div className="service-icon">
+            <i className="fas fa-cloud"></i>
+          </div>
+          <div className="service-content">
+            <h3>حوصلہ افزائی</h3>
+            <p>&quot;کامیابی کا راز مسلسل کوشش میں چھپا ہوا ہے۔&quot;</p>
+          </div>
+        </div>
+        
+        <div className="service-card">
+          <div className="service-icon">
+            <i className="fas fa-users"></i>
+          </div>
+          <div className="service-content">
+            <h3>حوصلہ افزائی</h3>
+            <p>&quot;جو چیز آپ کے خوابوں کو حقیقت میں بدل دے، وہ محنت ہے۔&quot;</p>
+          </div>
+        </div>
+      </section>
 
-</p>
-            </div>
-        </div>
-        
-        <div className="service-card">
-            <div className="service-icon">
-                <i className="fas fa-cloud"></i>
-            </div>
-            <div className="service-content">
-                <h3>حوصلہ افزائی
-                </h3>
-                <p>"کامیابی کا راز مسلسل کوشش میں چھپا ہوا ہے۔"
-
-</p>
-            </div>
-        </div>
-        
-        <div className="service-card">
-            <div className="service-icon">
-                <i className="fas fa-users"></i>
-            </div>
-            <div className="service-content">
-                <h3>حوصلہ افزائی
-                </h3>
-                <p>"جو چیز آپ کے خوابوں کو حقیقت میں بدل دے، وہ محنت ہے۔"
-
-</p>
-            </div>
-        </div>
-        
-        
-    </section>
-
-
-    {/* <section className="service-section">
-        <div className="service-card">
-            <div className="service-icon">
-                <i className="fas fa-cogs"></i>
-            </div>
-            <div className="service-content">
-                <h3>Tech Services</h3>
-                <p>We offer cutting-edge technology solutions for your business needs.</p>
-            </div>
-        </div>
-        
-        <div className="service-card">
-            <div className="service-icon">
-                <i className="fas fa-mobile-alt"></i>
-            </div>
-            <div className="service-content">
-                <h3>App Development</h3>
-                <p>We specialize in building user-friendly mobile applications.</p>
-            </div>
-        </div>
-        
-        <div className="service-card">
-            <div className="service-icon">
-                <i className="fas fa-cloud"></i>
-            </div>
-            <div className="service-content">
-                <h3>Cloud Solutions</h3>
-                <p>Our cloud services enhance efficiency and scalability for businesses.</p>
-            </div>
-        </div>
-        
-        <div className="service-card">
-            <div className="service-icon">
-                <i className="fas fa-users"></i>
-            </div>
-            <div className="service-content">
-                <h3>Team Building</h3>
-                <p>We help organizations foster collaboration and teamwork.</p>
-            </div>
-        </div>
-        
-      
-    </section> */}
-    {/* <section className="service-section">
-        <div className="service-card">
-            <div className="service-icon">
-                <i className="fas fa-cogs"></i>
-            </div>
-            <div className="service-content">
-                <h3>Tech Services</h3>
-                <p>We offer cutting-edge technology solutions for your business needs.</p>
-            </div>
-        </div>
-        
-        <div className="service-card">
-            <div className="service-icon">
-                <i className="fas fa-mobile-alt"></i>
-            </div>
-            <div className="service-content">
-                <h3>App Development</h3>
-                <p>We specialize in building user-friendly mobile applications.</p>
-            </div>
-        </div>
-        
-        <div className="service-card">
-            <div className="service-icon">
-                <i className="fas fa-cloud"></i>
-            </div>
-            <div className="service-content">
-                <h3>Cloud Solutions</h3>
-                <p>Our cloud services enhance efficiency and scalability for businesses.</p>
-            </div>
-        </div>
-        
-        <div className="service-card">
-            <div className="service-icon">
-                <i className="fas fa-users"></i>
-            </div>
-            <div className="service-content">
-                <h3>Team Building</h3>
-                <p>We help organizations foster collaboration and teamwork.</p>
-            </div>
-        </div>
-        
-       
-    </section>
-    <section className="service-section">
-        <div className="service-card">
-            <div className="service-icon">
-                <i className="fas fa-cogs"></i>
-            </div>
-            <div className="service-content">
-                <h3>Tech Services</h3>
-                <p>We offer cutting-edge technology solutions for your business needs.</p>
-            </div>
-        </div>
-        
-        <div className="service-card">
-            <div className="service-icon">
-                <i className="fas fa-mobile-alt"></i>
-            </div>
-            <div className="service-content">
-                <h3>App Development</h3>
-                <p>We specialize in building user-friendly mobile applications.</p>
-            </div>
-        </div>
-        
-        <div className="service-card">
-            <div className="service-icon">
-                <i className="fas fa-cloud"></i>
-            </div>
-            <div className="service-content">
-                <h3>Cloud Solutions</h3>
-                <p>Our cloud services enhance efficiency and scalability for businesses.</p>
-            </div>
-        </div>
-        
-        <div className="service-card">
-            <div className="service-icon">
-                <i className="fas fa-users"></i>
-            </div>
-            <div className="service-content">
-                <h3>Team Building</h3>
-                <p>We help organizations foster collaboration and teamwork.</p>
-            </div>
-        </div>
-        
-      
-    </section> */}
-    {/* <section className="service-section">
-        <div className="service-card">
-            <div className="service-icon">
-                <i className="fas fa-cogs"></i>
-            </div>
-            <div className="service-content">
-                <h3>Tech Services</h3>
-                <p>We offer cutting-edge technology solutions for your business needs.</p>
-            </div>
-        </div>
-        
-        <div className="service-card">
-            <div className="service-icon">
-                <i className="fas fa-mobile-alt"></i>
-            </div>
-            <div className="service-content">
-                <h3>App Development</h3>
-                <p>We specialize in building user-friendly mobile applications.</p>
-            </div>
-        </div> */}
-        
-        {/* <div className="service-card">
-            <div className="service-icon">
-                <i className="fas fa-cloud"></i>
-            </div>
-            <div className="service-content">
-                <h3>Cloud Solutions</h3>
-                <p>Our cloud services enhance efficiency and scalability for businesses.</p>
-            </div>
-        </div>
-        
-        <div className="service-card">
-            <div className="service-icon">
-                <i className="fas fa-users"></i>
-            </div>
-            <div className="service-content">
-                <h3>Team Building</h3>
-                <p>We help organizations foster collaboration and teamwork.</p>
-            </div>
-        </div>
-        
-        */}
-    {/* </section> */}
-    {/* <section className="service-section">
-        <div className="service-card">
-            <div className="service-icon">
-                <i className="fas fa-cogs"></i>
-            </div>
-            <div className="service-content">
-                <h3>Tech Services</h3>
-                <p>We offer cutting-edge technology solutions for your business needs.</p>
-            </div>
-        </div>
-        
-        <div className="service-card">
-            <div className="service-icon">
-                <i className="fas fa-mobile-alt"></i>
-            </div>
-            <div className="service-content">
-                <h3>App Development</h3>
-                <p>We specialize in building user-friendly mobile applications.</p>
-            </div>
-        </div>
-        
-        <div className="service-card">
-            <div className="service-icon">
-                <i className="fas fa-cloud"></i>
-            </div>
-            <div className="service-content">
-                <h3>Cloud Solutions</h3>
-                <p>Our cloud services enhance efficiency and scalability for businesses.</p>
-            </div>
-        </div>
-        
-        <div className="service-card">
-            <div className="service-icon">
-                <i className="fas fa-users"></i>
-            </div>
-            <div className="service-content">
-                <h3>Team Building</h3>
-                <p>We help organizations foster collaboration and teamwork.</p>
-            </div>
-        </div>
-        
-       
-    </section>
-    <section className="service-section">
-        <div className="service-card">
-            <div className="service-icon">
-                <i className="fas fa-cogs"></i>
-            </div>
-            <div className="service-content">
-                <h3>Tech Services</h3>
-                <p>We offer cutting-edge technology solutions for your business needs.</p>
-            </div>
-        </div>
-        
-        <div className="service-card">
-            <div className="service-icon">
-                <i className="fas fa-mobile-alt"></i>
-            </div>
-            <div className="service-content">
-                <h3>App Development</h3>
-                <p>We specialize in building user-friendly mobile applications.</p>
-            </div>
-        </div>
-        
-        <div className="service-card">
-            <div className="service-icon">
-                <i className="fas fa-cloud"></i>
-            </div>
-            <div className="service-content">
-                <h3>Cloud Solutions</h3>
-                <p>Our cloud services enhance efficiency and scalability for businesses.</p>
-            </div>
-        </div>
-        
-        <div className="service-card">
-            <div className="service-icon">
-                <i className="fas fa-users"></i>
-            </div>
-            <div className="service-content">
-                <h3>Team Building</h3>
-                <p>We help organizations foster collaboration and teamwork.</p>
-            </div>
-        </div>
-        
-     
-    </section> */}
-    {/* <section className="service-section">
-        <div className="service-card">
-            <div className="service-icon">
-                <i className="fas fa-cogs"></i>
-            </div>
-            <div className="service-content">
-                <h3>Tech Services</h3>
-                <p>We offer cutting-edge technology solutions for your business needs.</p>
-            </div>
-        </div>
-        
-        <div className="service-card">
-            <div className="service-icon">
-                <i className="fas fa-mobile-alt"></i>
-            </div>
-            <div className="service-content">
-                <h3>App Development</h3>
-                <p>We specialize in building user-friendly mobile applications.</p>
-            </div>
-        </div>
-        
-        <div className="service-card">
-            <div className="service-icon">
-                <i className="fas fa-cloud"></i>
-            </div>
-            <div className="service-content">
-                <h3>Cloud Solutions</h3>
-                <p>Our cloud services enhance efficiency and scalability for businesses.</p>
-            </div>
-        </div>
-        
-        <div className="service-card">
-            <div className="service-icon">
-                <i className="fas fa-users"></i>
-            </div>
-            <div className="service-content">
-                <h3>Team Building</h3>
-                <p>We help organizations foster collaboration and teamwork.</p>
-            </div>
-        </div>
-       
-    </section>
-    <section className="service-section">
-        <div className="service-card">
-            <div className="service-icon">
-                <i className="fas fa-cogs"></i>
-            </div>
-            <div className="service-content">
-                <h3>Tech Services</h3>
-                <p>We offer cutting-edge technology solutions for your business needs.</p>
-            </div>
-        </div>
-        
-        <div className="service-card">
-            <div className="service-icon">
-                <i className="fas fa-mobile-alt"></i>
-            </div>
-            <div className="service-content">
-                <h3>App Development</h3>
-                <p>We specialize in building user-friendly mobile applications.</p>
-            </div>
-        </div>
-        
-        <div className="service-card">
-            <div className="service-icon">
-                <i className="fas fa-cloud"></i>
-            </div>
-            <div className="service-content">
-                <h3>Cloud Solutions</h3>
-                <p>Our cloud services enhance efficiency and scalability for businesses.</p>
-            </div>
-        </div>
-        
-        <div className="service-card">
-            <div className="service-icon">
-                <i className="fas fa-users"></i>
-            </div>
-            <div className="service-content">
-                <h3>Team Building</h3>
-                <p>We help organizations foster collaboration and teamwork.</p>
-            </div>
-        </div>
-        
-       
-    </section> */}
-    {/* <section className="service-section">
-        <div className="service-card">
-            <div className="service-icon">
-                <i className="fas fa-cogs"></i>
-            </div>
-            <div className="service-content">
-                <h3>Tech Services</h3>
-                <p>We offer cutting-edge technology solutions for your business needs.</p>
-            </div>
-        </div>
-        
-        <div className="service-card">
-            <div className="service-icon">
-                <i className="fas fa-mobile-alt"></i>
-            </div>
-            <div className="service-content">
-                <h3>App Development</h3>
-                <p>We specialize in building user-friendly mobile applications.</p>
-            </div>
-        </div>
-        
-        <div className="service-card">
-            <div className="service-icon">
-                <i className="fas fa-cloud"></i>
-            </div>
-            <div className="service-content">
-                <h3>Cloud Solutions</h3>
-                <p>Our cloud services enhance efficiency and scalability for businesses.</p>
-            </div>
-        </div>
-        
-        <div className="service-card">
-            <div className="service-icon">
-                <i className="fas fa-users"></i>
-            </div>
-            <div className="service-content">
-                <h3>Team Building</h3>
-                <p>We help organizations foster collaboration and teamwork.</p>
-            </div>
-        </div>
-        
-      
-    </section>
-    <section className="service-section">
-        <div className="service-card">
-            <div className="service-icon">
-                <i className="fas fa-cogs"></i>
-            </div>
-            <div className="service-content">
-                <h3>Tech Services</h3>
-                <p>We offer cutting-edge technology solutions for your business needs.</p>
-            </div>
-        </div>
-        
-        <div className="service-card">
-            <div className="service-icon">
-                <i className="fas fa-mobile-alt"></i>
-            </div>
-            <div className="service-content">
-                <h3>App Development</h3>
-                <p>We specialize in building user-friendly mobile applications.</p>
-            </div>
-        </div>
-        
-        <div className="service-card">
-            <div className="service-icon">
-                <i className="fas fa-cloud"></i>
-            </div>
-            <div className="service-content">
-                <h3>Cloud Solutions</h3>
-                <p>Our cloud services enhance efficiency and scalability for businesses.</p>
-            </div>
-        </div>
-        
-        <div className="service-card">
-            <div className="service-icon">
-                <i className="fas fa-users"></i>
-            </div>
-            <div className="service-content">
-                <h3>Team Building</h3>
-                <p>We help organizations foster collaboration and teamwork.</p>
-            </div>
-        </div>
-        
-     =
-    </section> */}
-    {/* <section className="service-section">
-        <div className="service-card">
-            <div className="service-icon">
-                <i className="fas fa-cogs"></i>
-            </div>
-            <div className="service-content">
-                <h3>Tech Services</h3>
-                <p>We offer cutting-edge technology solutions for your business needs.</p>
-            </div>
-        </div>
-        
-        <div className="service-card">
-            <div className="service-icon">
-                <i className="fas fa-mobile-alt"></i>
-            </div>
-            <div className="service-content">
-                <h3>App Development</h3>
-                <p>We specialize in building user-friendly mobile applications.</p>
-            </div>
-        </div>
-        
-        <div className="service-card">
-            <div className="service-icon">
-                <i className="fas fa-cloud"></i>
-            </div>
-            <div className="service-content">
-                <h3>Cloud Solutions</h3>
-                <p>Our cloud services enhance efficiency and scalability for businesses.</p>
-            </div>
-        </div>
-        
-        <div className="service-card">
-            <div className="service-icon">
-                <i className="fas fa-users"></i>
-            </div>
-            <div className="service-content">
-                <h3>Team Building</h3>
-                <p>We help organizations foster collaboration and teamwork.</p>
-            </div>
-        </div>
-        
-        =
-    </section> */}
-    {/* <section className="service-section">
-        <div className="service-card">
-            <div className="service-icon">
-                <i className="fas fa-cogs"></i>
-            </div>
-            <div className="service-content">
-                <h3>Tech Services</h3>
-                <p>We offer cutting-edge technology solutions for your business needs.</p>
-            </div>
-        </div>
-        
-        <div className="service-card">
-            <div className="service-icon">
-                <i className="fas fa-mobile-alt"></i> */}
-            {/* </div>
-            <div className="service-content">
-                <h3>App Development</h3>
-                <p>We specialize in building user-friendly mobile applications.</p>
-            </div>
-        </div>
-        
-        <div className="service-card">
-            <div className="service-icon">
-                <i className="fas fa-cloud"></i> */}
-            {/* </div>
-            <div className="service-content">
-                <h3>Cloud Solutions</h3>
-                <p>Our cloud services enhance efficiency and scalability for businesses.</p>
-            </div>
-        </div> */}
-{/*         
-        <div className="service-card">
-            <div className="service-icon">
-                <i className="fas fa-users"></i>
-            </div>
-            <div className="service-content">
-                <h3>Team Building</h3>
-                <p>We help organizations foster collaboration and teamwork.</p>
-            </div>
-        </div> */}
-        
-        <div className="adsense-space">
-            <p>AdSense Space</p>
-        </div>
-    {/* </section> */}
-    {/* <section className="service-section">
-        <div className="service-card">
-            <div className="service-icon">
-                <i className="fas fa-cogs"></i>
-            </div> */}
-            {/* <div className="service-content">
-                <h3>حوصلہ افزائی
-                </h3>
-                <p>We offer cutting-edge technology solutions for your business needs.</p>
-            </div>
-        </div> */}
-        
-        {/* <div className="service-card">
-            <div className="service-icon">
-                <i className="fas fa-mobile-alt"></i>
-            </div>
-            <div className="service-content">
-                <h3>App Development</h3>
-                <p>We specialize in building user-friendly mobile applications.</p>
-            </div>
-        </div> */}
-{/*         
-        <div className="service-card">
-            <div className="service-icon">
-                <i className="fas fa-cloud"></i>
-            </div>
-            <div className="service-content">
-                <h3>Cloud Solutions</h3>
-                <p>Our cloud services enhance efficiency and scalability for businesses.</p>
-            </div>
-        </div> */}
-        
-        {/* <div className="service-card">
-            <div className="service-icon">
-                <i className="fas fa-users"></i>
-            </div>
-            <div className="service-content">
-                <h3>Team Building</h3>
-                <p>We help organizations foster collaboration and teamwork.</p>
-            </div>
-        </div>
-        
-       
-    </section> */}
-    <footer>
+      <footer>
         <p>&copy; 2025 Our Company. All Rights Reserved.</p>
-    </footer>
-    
-    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+      </footer>
+
+      {/* Load FontAwesome script asynchronously */}
+      <Script 
+        src="https://kit.fontawesome.com/a076d05399.js" 
+        strategy="afterInteractive" 
+      />
     </div>
-  )
+  );
 }
 
 export default Mt;

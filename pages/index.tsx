@@ -23,23 +23,23 @@ const Index = () => {
 
         <section className="content">
           <div className="poem-preview">
-            <h3>"محنت کا کوئی متبادل نہیں ہوتا۔"</h3>
-            <p>"There is no substitute for hard work."</p>
+            <h3>&quot;محنت کا کوئی متبادل نہیں ہوتا۔&quot;</h3>
+            <p>&quot;There is no substitute for hard work.&quot;</p>
           </div>
           <div className="poem-preview">
-            <h3>"محبت سے بڑی کوئی طاقت نہیں ہوتی"</h3>
-            <p>"There is no greater power than love."</p>
+            <h3>&quot;محبت سے بڑی کوئی طاقت نہیں ہوتی&quot;</h3>
+            <p>&quot;There is no greater power than love.&quot;</p>
           </div>
         </section>
 
         <section className="content">
           <div className="poem-preview">
-            <h3>"گر تم حقیقت میں کامیاب ہونا چاہتے ہو، تو پہلے اپنی ناکامیوں کو گلے لگاؤ۔"</h3>
-            <p>"If you truly want to succeed, first embrace your failures."</p>
+            <h3>&quot;گر تم حقیقت میں کامیاب ہونا چاہتے ہو، تو پہلے اپنی ناکامیوں کو گلے لگاؤ۔&quot;</h3>
+            <p>&quot;If you truly want to succeed, first embrace your failures.&quot;</p>
           </div>
           <div className="poem-preview">
-            <h3>"دنیا میں سب سے بڑی خوشی یہ ہے کہ آپ کسی کو مسکرا کر دکھا سکیں۔"</h3>
-            <p>"The greatest happiness in the world is to make someone smile."</p>
+            <h3>&quot;دنیا میں سب سے بڑی خوشی یہ ہے کہ آپ کسی کو مسکرا کر دکھا سکیں۔&quot;</h3>
+            <p>&quot;The greatest happiness in the world is to make someone smile.&quot;</p>
           </div>
         </section>
       </main>
