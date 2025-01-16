@@ -15,8 +15,11 @@ const Mt = () => {
                 <i className="fas fa-cogs"></i>
             </div>
             <div className="service-content">
-                <h3>Tech Services</h3>
-                <p>We offer cutting-edge technology solutions for your business needs.</p>
+                <h3>حوصلہ افزائی
+                </h3>
+                <p>"زندگی میں کامیابی حاصل کرنے کے لئے محنت ضروری ہے، خواب دیکھنا کافی نہیں۔"
+
+</p>
             </div>
         </div>
         
@@ -25,12 +28,13 @@ const Mt = () => {
                 <i className="fas fa-mobile-alt"></i>
             </div>
             <div className="service-content">
-                <h3>App Development</h3>
-                <p>We specialize in building user-friendly mobile applications.</p>
+                <h3>حوصلہ افزائی
+                </h3>
+                <p>جب تک تمہیں ناکامی کا خوف ہے، کامیابی تمہارے قریب نہیں آ سکتی۔"</p>
             </div>
         </div>
         
-        <div className="service-card">
+        {/* <div className="service-card">
             <div className="service-icon">
                 <i className="fas fa-cloud"></i>
             </div>
@@ -49,7 +53,7 @@ const Mt = () => {
                 <p>We help organizations foster collaboration and teamwork.</p>
             </div>
         </div>
-        
+         */}
         <div className="adsense-space">
             <p>AdSense Space</p>
         </div>
@@ -62,8 +66,9 @@ const Mt = () => {
                 <i className="fas fa-cogs"></i>
             </div>
             <div className="service-content">
-                <h3>Tech Services</h3>
-                <p>We offer cutting-edge technology solutions for your business needs.</p>
+                <h3>حوصلہ افزائی
+                </h3>
+                <p>"جو شخص خود پر یقین رکھتا ہے، وہ کبھی بھی شکست نہیں کھاتا۔".</p>
             </div>
         </div>
         
@@ -72,8 +77,11 @@ const Mt = () => {
                 <i className="fas fa-mobile-alt"></i>
             </div>
             <div className="service-content">
-                <h3>App Development</h3>
-                <p>We specialize in building user-friendly mobile applications.</p>
+                <h3>حوصلہ افزائی
+                </h3>
+                <p>"مشکل وقت میں ہمت نہ ہارنا، کیونکہ سب سے بڑا سورج ہمیشہ اندھیری رات کے بعد چمکتا ہے۔"
+
+</p>
             </div>
         </div>
         
@@ -82,8 +90,11 @@ const Mt = () => {
                 <i className="fas fa-cloud"></i>
             </div>
             <div className="service-content">
-                <h3>Cloud Solutions</h3>
-                <p>Our cloud services enhance efficiency and scalability for businesses.</p>
+                <h3>حوصلہ افزائی
+                </h3>
+                <p>"کامیابی کا راز مسلسل کوشش میں چھپا ہوا ہے۔"
+
+</p>
             </div>
         </div>
         
@@ -92,8 +103,11 @@ const Mt = () => {
                 <i className="fas fa-users"></i>
             </div>
             <div className="service-content">
-                <h3>Team Building</h3>
-                <p>We help organizations foster collaboration and teamwork.</p>
+                <h3>حوصلہ افزائی
+                </h3>
+                <p>"جو چیز آپ کے خوابوں کو حقیقت میں بدل دے، وہ محنت ہے۔"
+
+</p>
             </div>
         </div>
         
@@ -101,7 +115,7 @@ const Mt = () => {
     </section>
 
 
-    <section className="service-section">
+    {/* <section className="service-section">
         <div className="service-card">
             <div className="service-icon">
                 <i className="fas fa-cogs"></i>
@@ -143,8 +157,8 @@ const Mt = () => {
         </div>
         
       
-    </section>
-    <section className="service-section">
+    </section> */}
+    {/* <section className="service-section">
         <div className="service-card">
             <div className="service-icon">
                 <i className="fas fa-cogs"></i>
@@ -229,8 +243,8 @@ const Mt = () => {
         </div>
         
       
-    </section>
-    <section className="service-section">
+    </section> */}
+    {/* <section className="service-section">
         <div className="service-card">
             <div className="service-icon">
                 <i className="fas fa-cogs"></i>
@@ -249,9 +263,9 @@ const Mt = () => {
                 <h3>App Development</h3>
                 <p>We specialize in building user-friendly mobile applications.</p>
             </div>
-        </div>
+        </div> */}
         
-        <div className="service-card">
+        {/* <div className="service-card">
             <div className="service-icon">
                 <i className="fas fa-cloud"></i>
             </div>
@@ -271,9 +285,9 @@ const Mt = () => {
             </div>
         </div>
         
-       
-    </section>
-    <section className="service-section">
+        */}
+    {/* </section> */}
+    {/* <section className="service-section">
         <div className="service-card">
             <div className="service-icon">
                 <i className="fas fa-cogs"></i>
@@ -358,8 +372,8 @@ const Mt = () => {
         </div>
         
      
-    </section>
-    <section className="service-section">
+    </section> */}
+    {/* <section className="service-section">
         <div className="service-card">
             <div className="service-icon">
                 <i className="fas fa-cogs"></i>
@@ -443,8 +457,8 @@ const Mt = () => {
         </div>
         
        
-    </section>
-    <section className="service-section">
+    </section> */}
+    {/* <section className="service-section">
         <div className="service-card">
             <div className="service-icon">
                 <i className="fas fa-cogs"></i>
@@ -529,8 +543,8 @@ const Mt = () => {
         </div>
         
      =
-    </section>
-    <section className="service-section">
+    </section> */}
+    {/* <section className="service-section">
         <div className="service-card">
             <div className="service-icon">
                 <i className="fas fa-cogs"></i>
@@ -572,8 +586,8 @@ const Mt = () => {
         </div>
         
         =
-    </section>
-    <section className="service-section">
+    </section> */}
+    {/* <section className="service-section">
         <div className="service-card">
             <div className="service-icon">
                 <i className="fas fa-cogs"></i>
@@ -586,8 +600,8 @@ const Mt = () => {
         
         <div className="service-card">
             <div className="service-icon">
-                <i className="fas fa-mobile-alt"></i>
-            </div>
+                <i className="fas fa-mobile-alt"></i> */}
+            {/* </div>
             <div className="service-content">
                 <h3>App Development</h3>
                 <p>We specialize in building user-friendly mobile applications.</p>
@@ -596,14 +610,14 @@ const Mt = () => {
         
         <div className="service-card">
             <div className="service-icon">
-                <i className="fas fa-cloud"></i>
-            </div>
+                <i className="fas fa-cloud"></i> */}
+            {/* </div>
             <div className="service-content">
                 <h3>Cloud Solutions</h3>
                 <p>Our cloud services enhance efficiency and scalability for businesses.</p>
             </div>
-        </div>
-        
+        </div> */}
+{/*         
         <div className="service-card">
             <div className="service-icon">
                 <i className="fas fa-users"></i>
@@ -612,24 +626,25 @@ const Mt = () => {
                 <h3>Team Building</h3>
                 <p>We help organizations foster collaboration and teamwork.</p>
             </div>
-        </div>
+        </div> */}
         
         <div className="adsense-space">
             <p>AdSense Space</p>
         </div>
-    </section>
-    <section className="service-section">
+    {/* </section> */}
+    {/* <section className="service-section">
         <div className="service-card">
             <div className="service-icon">
                 <i className="fas fa-cogs"></i>
-            </div>
-            <div className="service-content">
-                <h3>Tech Services</h3>
+            </div> */}
+            {/* <div className="service-content">
+                <h3>حوصلہ افزائی
+                </h3>
                 <p>We offer cutting-edge technology solutions for your business needs.</p>
             </div>
-        </div>
+        </div> */}
         
-        <div className="service-card">
+        {/* <div className="service-card">
             <div className="service-icon">
                 <i className="fas fa-mobile-alt"></i>
             </div>
@@ -637,8 +652,8 @@ const Mt = () => {
                 <h3>App Development</h3>
                 <p>We specialize in building user-friendly mobile applications.</p>
             </div>
-        </div>
-        
+        </div> */}
+{/*         
         <div className="service-card">
             <div className="service-icon">
                 <i className="fas fa-cloud"></i>
@@ -647,9 +662,9 @@ const Mt = () => {
                 <h3>Cloud Solutions</h3>
                 <p>Our cloud services enhance efficiency and scalability for businesses.</p>
             </div>
-        </div>
+        </div> */}
         
-        <div className="service-card">
+        {/* <div className="service-card">
             <div className="service-icon">
                 <i className="fas fa-users"></i>
             </div>
@@ -660,7 +675,7 @@ const Mt = () => {
         </div>
         
        
-    </section>
+    </section> */}
     <footer>
         <p>&copy; 2025 Our Company. All Rights Reserved.</p>
     </footer>

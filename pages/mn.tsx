@@ -16,8 +16,11 @@ const Mn = () => {
                 <i className="fas fa-cogs"></i>
             </div>
             <div className="service-content">
-                <h3>Tech Services</h3>
-                <p>We offer cutting-edge technology solutions for your business needs.</p>
+                <h3>محبت میں دھوکہ
+                </h3>
+                <p>ٹوٹا ہوا دل ہمیشہ ادھورا لگتا ہے، جیسے کوئی خواب آدھورا رہ جائے۔
+
+</p>
             </div>
         </div>
         
@@ -26,8 +29,11 @@ const Mn = () => {
                 <i className="fas fa-mobile-alt"></i>
             </div>
             <div className="service-content">
-                <h3>App Development</h3>
-                <p>We specialize in building user-friendly mobile applications.</p>
+                <h3>محبت میں دھوکہ
+                </h3>
+                <p>جب دل ٹوٹتا ہے، تو اس کا درد جسم کے ہر حصے میں محسوس ہوتا ہے۔
+
+</p>
             </div>
         </div>
         
@@ -36,8 +42,11 @@ const Mn = () => {
                 <i className="fas fa-cloud"></i>
             </div>
             <div className="service-content">
-                <h3>Cloud Solutions</h3>
-                <p>Our cloud services enhance efficiency and scalability for businesses.</p>
+                <h3>محبت میں دھوکہ
+                </h3>
+                <p>ٹوٹے ہوئے دل کی آواز کبھی بھی صاف نہیں ہوتی، یہ ہمیشہ دل کی گہرائیوں میں گونجتی رہتی ہے۔
+
+</p>
             </div>
         </div>
         
@@ -46,8 +55,11 @@ const Mn = () => {
                 <i className="fas fa-users"></i>
             </div>
             <div className="service-content">
-                <h3>Team Building</h3>
-                <p>We help organizations foster collaboration and teamwork.</p>
+                <h3>محبت میں دھوکہ
+                </h3>
+                <p>دل کا ٹوٹنا ایک ایسی اذیت ہے جو وقت کے ساتھ کم نہیں ہوتی، بلکہ بڑھتی ہے۔
+
+</p>
             </div>
         </div>
         
@@ -57,7 +69,7 @@ const Mn = () => {
     </section>
  
 
-    <section className="service-section">
+    {/* <section className="service-section">
         <div className="service-card">
             <div className="service-icon">
                 <i className="fas fa-cogs"></i>
@@ -273,8 +285,8 @@ const Mn = () => {
         </div>
         
        
-    </section>
-    <section className="service-section">
+    </section> */}
+    {/* <section className="service-section">
         <div className="service-card">
             <div className="service-icon">
                 <i className="fas fa-cogs"></i>
@@ -444,8 +456,8 @@ const Mn = () => {
         </div>
         
        
-    </section>
-    <section className="service-section">
+    </section> */}
+    {/* <section className="service-section">
         <div className="service-card">
             <div className="service-icon">
                 <i className="fas fa-cogs"></i>
@@ -487,8 +499,8 @@ const Mn = () => {
         </div>
         
       
-    </section>
-    <section className="service-section">
+    </section> */}
+    {/* <section className="service-section">
         <div className="service-card">
             <div className="service-icon">
                 <i className="fas fa-cogs"></i>
@@ -573,15 +585,18 @@ const Mn = () => {
         </div>
         
         =
-    </section>
+    </section> */}
     <section className="service-section">
         <div className="service-card">
             <div className="service-icon">
                 <i className="fas fa-cogs"></i>
             </div>
             <div className="service-content">
-                <h3>Tech Services</h3>
-                <p>We offer cutting-edge technology solutions for your business needs.</p>
+                <h3>محبت میں دھوکہ
+                </h3>
+                <p>جب دل ٹوٹتا ہے، تو احساس ہوتا ہے کہ پوری دنیا ہی سیاہ ہو گئی ہو۔
+
+</p>
             </div>
         </div>
         
@@ -590,8 +605,11 @@ const Mn = () => {
                 <i className="fas fa-mobile-alt"></i>
             </div>
             <div className="service-content">
-                <h3>App Development</h3>
-                <p>We specialize in building user-friendly mobile applications.</p>
+                <h3>محبت میں دھوکہ
+                </h3>
+                <p>ٹوٹے ہوئے دل کا ہر درز ایک کہانی سناتا ہے، جو کبھی مکمل نہیں ہوتی۔
+
+</p>
             </div>
         </div>
         
@@ -600,8 +618,11 @@ const Mn = () => {
                 <i className="fas fa-cloud"></i>
             </div>
             <div className="service-content">
-                <h3>Cloud Solutions</h3>
-                <p>Our cloud services enhance efficiency and scalability for businesses.</p>
+                <h3>محبت میں دھوکہ
+                </h3>
+                <p>دل کی تکلیف اس وقت تک نہیں کم ہوتی جب تک دل خود نہیں چاہتا۔
+
+</p>
             </div>
         </div>
         
@@ -610,8 +631,11 @@ const Mn = () => {
                 <i className="fas fa-users"></i>
             </div>
             <div className="service-content">
-                <h3>Team Building</h3>
-                <p>We help organizations foster collaboration and teamwork.</p>
+                <h3>محبت میں دھوکہ
+                </h3>
+                <p>ٹوٹا ہوا دل ہمیشہ ایک خلا چھوڑ جاتا ہے، جسے پر کرنا مشکل ہوتا ہے۔
+
+</p>
             </div>
         </div>
         
@@ -625,8 +649,11 @@ const Mn = () => {
                 <i className="fas fa-cogs"></i>
             </div>
             <div className="service-content">
-                <h3>Tech Services</h3>
-                <p>We offer cutting-edge technology solutions for your business needs.</p>
+                <h3>محبت میں دھوکہ
+                </h3>
+                <p>ٹوٹے ہوئے دل میں امید کا کوئی چراغ باقی نہیں رہتا، بس اندھیرا ہی اندھیرا ہوتا ہے۔
+
+</p>
             </div>
         </div>
         
@@ -635,8 +662,11 @@ const Mn = () => {
                 <i className="fas fa-mobile-alt"></i>
             </div>
             <div className="service-content">
-                <h3>App Development</h3>
-                <p>We specialize in building user-friendly mobile applications.</p>
+                <h3>محبت میں دھوکہ
+                </h3>
+                <p>دل کا ٹوٹنا ہمیشہ ایک یاد بن جاتا ہے، جو وقت کے ساتھ کبھی مٹتی نہیں۔
+
+</p>
             </div>
         </div>
         
@@ -645,8 +675,11 @@ const Mn = () => {
                 <i className="fas fa-cloud"></i>
             </div>
             <div className="service-content">
-                <h3>Cloud Solutions</h3>
-                <p>Our cloud services enhance efficiency and scalability for businesses.</p>
+                <h3>محبت میں دھوکہ
+                </h3>
+                <p>جب دل ٹوٹتا ہے، تو ہر پل بے سکون لگتا ہے، جیسے سکون کی کوئی گنجائش نہ ہو۔
+
+</p>
             </div>
         </div>
         
@@ -655,8 +688,11 @@ const Mn = () => {
                 <i className="fas fa-users"></i>
             </div>
             <div className="service-content">
-                <h3>Team Building</h3>
-                <p>We help organizations foster collaboration and teamwork.</p>
+                <h3>محبت میں دھوکہ
+                </h3>
+                <p>ٹوٹے ہوئے دل میں امید کا کوئی چراغ باقی نہیں رہتا، بس اندھیرا ہی اندھیرا ہوتا ہے۔
+
+</p>
             </div>
         </div>
         
