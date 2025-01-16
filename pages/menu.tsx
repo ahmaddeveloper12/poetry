@@ -4,6 +4,8 @@ const Menu = () => {
   return (
     <div>
        <header>
+       <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9583800882921435"
+     crossOrigin="anonymous"></script>
     <h1>Select your favourite poetry </h1>
   </header>
 

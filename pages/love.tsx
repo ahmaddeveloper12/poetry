@@ -5,6 +5,8 @@ const Love = () => {
   return (
     <div>
        <header>
+       <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9583800882921435"
+     crossOrigin="anonymous"></script>
         <div className="logo">
             <h1>محبت</h1>
         </div>
@@ -20,15 +22,7 @@ const Love = () => {
                 <p>محبت ایک ایسا جذبہ ہے جو دل کی گہرائیوں سے نکل کر روح تک پہنچتا ہے۔</p>
             </div>
         </div>
-        <div className="service-card">
-            <div className="service-icon">
-                <i className="fas fa-cloud"></i>
-            </div>
-            <div className="service-content">
-                <h3>محبت</h3>
-                <p>محبت میں وقت کا کوئی حساب نہیں ہوتا، ایک لمحہ بھی ہمیشہ کے لیے یاد رہتا ہے۔</p>
-            </div>
-        </div>
+       
         
         <div className="service-card">
             <div className="service-icon">
@@ -52,15 +46,6 @@ const Love = () => {
             </div>
         </div>
         
-        <div className="service-card">
-            <div className="service-icon">
-                <i className="fas fa-users"></i>
-            </div>
-            <div className="service-content">
-                <h3>محبت</h3>
-                <p>محبت وہ روشنی ہے جو اندھیروں میں بھی راستہ دکھاتی ہے۔</p>
-            </div>
-        </div>
         
         <div className="adsense-space">
             <p>AdSense Space</p>

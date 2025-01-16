@@ -5,6 +5,8 @@ const Mt = () => {
   return (
     <div>
       <header>
+      <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9583800882921435"
+     crossOrigin="anonymous"></script>
         <div className="logo">
           <h1>حوصلہ افزائی</h1>
         </div>

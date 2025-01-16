@@ -5,6 +5,8 @@ const Udasi = () => {
   return (
     <div>
       <header>
+      <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9583800882921435"
+     crossOrigin="anonymous"></script>
         <div className="logo">
           <h1>اداسی</h1>
         </div>
@@ -24,33 +26,10 @@ const Udasi = () => {
           </div>
         </div>
 
-        <div className="service-card">
-          <div className="service-icon">
-            <i className="fas fa-mobile-alt"></i>
-          </div>
-          <div className="service-content">
-            <h3>اداسی</h3>
-            <p>&quot;خالی ہو گیا ہے دل کا گوشہ،<br />
-            خواب بھی اب ماضی کے عکس ہیں۔<br />
-            چاندنی راتوں میں بھی اندھیرا ہے،<br />
-            دکھوں کا موسم ہر پل ہے۔&quot;</p>
-          </div>
-        </div>
 
-        <div className="service-card">
-          <div className="service-icon">
-            <i className="fas fa-cloud"></i>
-          </div>
-          <div className="service-content">
-            <h3>اداسی</h3>
-            <p>&quot;دوریاں بڑھ گئیں ہیں، دل دور ہوگیا،<br />
-            دلی رشتہ اب خواب ہوگیا۔<br />
-            اب جو چھوٹا تھا، وہ بھی سنسان ہے،<br />
-            دکھ میں غم کی گلیاں سناں ہیں۔&quot;</p>
-          </div>
-        </div>
+        
 
-        <div className="service-card">
+        {/* <div className="service-card">
           <div className="service-icon">
             <i className="fas fa-users"></i>
           </div>
@@ -61,7 +40,7 @@ const Udasi = () => {
             خوشی کی آواز اب دور ہوگئی،<br />
             دکھوں کی گلیوں میں خواب چھوگئے۔&quot;</p>
           </div>
-        </div>
+        </div> */}
 
         <div className="adsense-space">
           <p>AdSense Space</p>
@@ -69,18 +48,7 @@ const Udasi = () => {
       </section>
 
       <section className="service-section">
-        <div className="service-card">
-          <div className="service-icon">
-            <i className="fas fa-cloud"></i>
-          </div>
-          <div className="service-content">
-            <h3>اداسی</h3>
-            <p>&quot;ہر خوشی کی گلی میں دکھ کا موسم ہے،<br />
-            غم کا دُکھ دل میں گہرا ہے۔<br />
-            اب کوئی شمع نہیں روشن،<br />
-            دل میں سوگ کی گلی سیاہ ہے.&quot;</p>
-          </div>
-        </div>
+        
 
         <div className="service-card">
           <div className="service-icon">
