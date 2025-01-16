@@ -22,7 +22,7 @@ const Menu = () => {
       <h2>محبت میں دھوکہ
       </h2>
       <p>محبت میں دھوکہ ایک نازک وہم پیدا کرتا ہے، ظاہر ہونے پر اعتماد کو توڑ دیتا ہے۔</p>
-      <a href="./dhoka" className="btn">Learn More</a>
+      <a href="./mn" className="btn">Learn More</a>
     </div>
   </section>
   <section className="services">
@@ -30,7 +30,7 @@ const Menu = () => {
       <h2>ماں کی محبت
       </h2>
       <p>ماں کی محبت غیر مشروط، بے حد، اور ہمیشہ کے لیے پرورش پانے والی ہوتی ہے۔</p>
-      <a href="./maa" className="btn">Learn More</a>
+      <a href="./mb" className="btn">Learn More</a>
     </div>
     <div className="service-card">
       <h2>اسلام</h2>
@@ -42,7 +42,7 @@ const Menu = () => {
       <h2>حوصلہ افزائی
       </h2>
       <p>حوصلہ افزائی رکاوٹوں پر قابو پانے اور ہمارے خوابوں کو حاصل کرنے کی مہم کو بھڑکاتی ہے۔</p>
-      <a href="./motivate" className="btn">Learn More</a>
+      <a href="./mt" className="btn">Learn More</a>
     </div>
   </section>
 
